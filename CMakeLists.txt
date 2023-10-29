@@ -46,10 +46,13 @@ target_sources(${PROJECT_NAME}
     include/QtExtensionsNetworking/IConnectable
     include/QtExtensionsNetworking/UDPSocket
     include/QtExtensionsNetworking/NetworkUtils
+    include/QtExtensionsNetworking/SeamlessUDPSocket
   PRIVATE
     src/c++/iconnectable.h
     src/c++/udpsocket.h
     src/c++/udpsocket.c++
+    src/c++/seamlessudpsocket.h
+    src/c++/seamlessudpsocket.c++
     src/c++/utils.h
     src/c++/utils.c++
 )
